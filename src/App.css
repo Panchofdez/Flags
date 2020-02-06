@@ -17,9 +17,10 @@ form div {
 	margin:5px;
 }
 img {
-	margin:0 auto;
-	height:600px;
-	width:900px;
+	margin:10px auto;
+	height:500px;
+	width:800px;
+	border:2px solid black;
 }
 
 .title-header {
@@ -31,3 +32,4 @@ img {
   align-items: flex-end;
   background-color: "#6b93d6";
 }
+

@@ -22,8 +22,10 @@ class FlagForm extends Component {
 	handleSubmit(event){
 		event.preventDefault();
 		if(this.state.selectedOption===this.props.answer.name){
+			this.props.trackProgress(true);
 			this.setState({guessedCorrect:true})
 		}else{
+			this.props.trackProgress(false);
 			this.setState({guessedCorrect:false})
 		}
 		
